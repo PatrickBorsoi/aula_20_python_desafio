@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aula-20-python-desafio"
+version = "0.1.0"
+description = ""
+authors = ["Patrick Perez"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.40"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
