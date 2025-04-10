@@ -10,5 +10,5 @@ class ProductModel(Base):
     description = Column(String)
     price = Column(Float)
     categoria = Column(String)
-    email_forecedor = Column(String)
+    email_fornecedor = Column(String)
     created_at = Column(DateTime(timezone=True), default=func.now())

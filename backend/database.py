@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 # Unica função e se comunicar com o postgres
 
-POSTGRES_DATABASE_URL = "postgresql://user:password@postgres/mydatabase"
+POSTGRES_DATABASE_URL = "postgresql://postgres:root@postgres/mydatabase"
 
 engine = create_engine(POSTGRES_DATABASE_URL)
 
