@@ -29,4 +29,3 @@ class ProductUpdate(BaseModel):
     price: Optional[PositiveFloat] = None
     categoria: Optional[str] = None
     email_fornecedor: Optional[EmailStr] = None
-    
